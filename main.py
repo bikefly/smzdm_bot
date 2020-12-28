@@ -53,7 +53,7 @@ if __name__ == '__main__':
     sb = SMZDM_Bot()
     sb.load_cookie_str(config.TEST_COOKIE)
     # cookies = os.environ["COOKIES"]
-    sb.load_cookie_str(cookies)
+    # sb.load_cookie_str(cookies)
     res = sb.checkin()
     print(res)
     SERVERCHAN_SECRETKEY = os.environ["SERVERCHAN_SECRETKEY"]
